@@ -1,0 +1,12 @@
+name: enviro
+
+dependencies:
+  - numpy
+  - random
+  - copy
+  - time
+  - datetime
+  - pandas  
+  - matplotlib.pyplot
+  - pylab
+  - os
