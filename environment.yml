@@ -1,12 +1,17 @@
 name: enviro
-
+channels:
+  - conda-forge
 dependencies:
+  - python
   - numpy
-  - random
-  - copy
-  - time
-  - datetime
-  - pandas  
-  - matplotlib.pyplot
-  - pylab
-  - os
+  - pip
+  - pip:
+    - random
+    - copy
+    - time
+    - datetime
+    - pandas  
+    - matplotlib
+    - pylab
+    - os
+
